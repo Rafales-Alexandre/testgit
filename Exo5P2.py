@@ -1,0 +1,23 @@
+liste = [17, 38, 10, 25, 72]
+liste.sort()
+print(liste)
+liste.append(12)
+print(liste)
+liste.reverse()
+print(liste)
+print(liste.index(17))
+liste.remove(38)
+print(liste)
+print(liste[1:3])
+print(liste[:2])
+print(liste[2:])
+print(liste[-1])
+print(type(liste))
+str1 = ':'.join(str(i) for i in liste)
+print(str1)
+print(type(str1))
+str2 = ":175"
+str3 = str1 + str2
+print(str3)
+liste = str3.split(":")
+print(liste)
